@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv*/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# PyTorch
+*.pth
+*.pt
+*.ckpt
+
+# 模型和训练输出
+*.bin
+*.safetensors
+output/
+checkpoints/
+logs/
+*.log
+*.pid
+
+# 数据文件（避免大文件）
+*.json
+*.jsonl
+*.parquet
+*.csv
+*.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.bak
+*.swp
+
+# Hugging Face cache
+.cache/
+models/
+
+# CUDA
+*.cu.o
+*.cu.d
+
+# 保留重要配置文件
+!requirements*.txt
+!config*.json
+!*.sh
